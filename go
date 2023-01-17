@@ -5,5 +5,5 @@
 lst=$(git add . && git commit -m 'update' && git push)
 for i in $lst;
 do
-  echo "$i" | cut -d '-' -f2
+  echo "$i" 
 done
