@@ -9,4 +9,4 @@ def find_peak(list_of_integers):
     else:
         outcome = set(list_of_integers)
         peak = max(outcome)
-        return peak
+    return peak
