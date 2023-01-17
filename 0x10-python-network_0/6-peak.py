@@ -7,6 +7,5 @@ def find_peak(list_of_integers):
     if list_of_integers == []:
         return None
     else:
-        outcome = set(list_of_integers)
-        peak = max(outcome)
+        peak = max(list_of_integers)
     return peak
